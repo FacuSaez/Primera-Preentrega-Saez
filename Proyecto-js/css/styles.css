@@ -1,0 +1,42 @@
+
+h1{
+    color: green;
+    text-align: center;
+}
+.ejemplo{
+    color: green;
+    text-align: center;
+}
+.peso{
+    display: flex;
+    justify-content: center;
+}
+.altura{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+input{
+    border-radius: 100px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-bottom: 100px;
+    color: green;
+}
+.imc{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 500px;
+    height: 100px;
+}
+@media screen and (max-width: 600px) {
+    img{
+        width: 350px;
+        height: 100px;
+    }
+}
